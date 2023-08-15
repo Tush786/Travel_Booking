@@ -1,28 +1,29 @@
 /* Login.css */
 body{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  /* background-image: url('https://images.pexels.com/photos/1671325/pexels-photo-1671325.jpeg?auto=compress&cs=tinysrgb&w=600'); */
-  background-size: cover;
-  background-color: rgb(30, 75, 30);
-  z-index: -1;
+  background-image: url('https://images.pexels.com/photos/165505/pexels-photo-165505.jpeg?auto=compress&cs=tinysrgb&w=600');
+
+background-repeat: no-repeat;
+background-size: cover;
+
+  
+
+  
 }
 .login-container {
  
-    width: 300px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
-    margin-left: 40%;
-    margin-top: 10%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  max-width: 300px;
+  background-color: #f8ead6; /* Light orange background */
+
+  margin-top: 10%;
+  margin-left: 18%;
     
   }
-  
+  hr{
+  margin-bottom:30px;
+  }
+
   .login-header {
     text-align: center;
     margin-bottom: 60px;
@@ -39,36 +40,38 @@ body{
   
   .login-input {
   
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    width: 90%;
+    padding: 20px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 10px; */
+    padding: 8px;
+    border: 1px solid #ff9f1a; /* Orange border */
+    margin-bottom: 30px;
   }
   
   .login-input:focus {
-    border-color: orange;
+    border-color: rgb(87, 56, 0);
   }
   
   .login-button {
+    width: 100%;
     padding: 10px;
-    background-color: orangered;
-    color: white;
+    background-color: rgb(255, 173, 20); /* Green button */
+    color: #fff;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
   
   .login-button:hover {
-    background-color: orange;
+    background-color: rgb(63, 42, 2);
   }
   
   .login-link {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   
   .login-link a {
